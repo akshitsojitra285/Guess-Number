@@ -9,13 +9,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://thumbs.dreamstime.com/b/scattered-numbers-wallpaper-background-use-use-design-layouts-content-creation-scattered-numbers-wallpaper-166001346.jpg);
+    background-image: url(gnumber.jpg);
 }
 .contain{
     width: 500px;
     height: 400px;
     border: 0px black solid;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLWW7U7Kk5Le1by3TIjEoL1_IL4DTwCWbVtA&usqp=CAU);
+    background-image: url(gpaper.jpg);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 15px 15px 25px rgba(33, 31, 31, 0.7);
@@ -65,7 +65,7 @@ button{
     cursor: pointer;
 }
 .win{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLWW7U7Kk5Le1by3TIjEoL1_IL4DTwCWbVtA&usqp=CAU);
+    background-image: url(gpaper.jpg);
     height: 400px;
     width: 300px;
     border: 0px black solid;
@@ -92,4 +92,59 @@ button{
     padding: 20px;
     margin: 30px;
     text-align: left;
+}
+@media screen and (max-width:480px){
+    body{
+        width: 100%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contain{
+        width: 400px;
+        height: 270px;
+        padding: 10px;
+        margin: 3pc;
+    }
+    h1{
+        padding: 5px;
+        margin: 5px;
+    }
+    p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    input[type="number"]{
+        padding: 5px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    .guess{
+        margin: 0px;
+    }
+    button{
+        padding: 10px;
+        margin: 20px;
+        margin-right: 30px;
+    }
+    .win{
+        width: 400px;
+        height: 270px;
+        padding: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    #info{
+        padding: 20px;
+        margin: 10px;
+    }
+    #number{
+        padding: 20px;
+        margin: 0px;
+    }
+    #winner{
+        padding: 20px;
+        margin: 0px;
+    }
 }
