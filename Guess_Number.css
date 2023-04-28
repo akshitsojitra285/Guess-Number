@@ -102,7 +102,7 @@ button{
         align-items: center;
     }
     .contain{
-        width: 400px;
+        width: 350px;
         height: 270px;
         padding: 10px;
         margin: 3pc;
@@ -129,7 +129,7 @@ button{
         margin-right: 30px;
     }
     .win{
-        width: 400px;
+        width: 350px;
         height: 270px;
         padding: 20px;
         margin-left: 0px;
